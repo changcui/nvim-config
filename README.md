@@ -8,7 +8,7 @@ Ensure you have `git`, `make`, and `ripgrep` installed on your system.
 
 ```bash
 # 1. Clone the config
-git clone [https://github.com/changcui/nvim-config](https://github.com/changcui/nvim-config) ~/.config/nvim
+git clone https://github.com/changcui/nvim-config ~/.config/nvim
 
 # 2. Headless plugin installation
 nvim --headless "+Lazy! sync" +qa
@@ -17,7 +17,6 @@ nvim --headless "+Lazy! sync" +qa
 nvim
 
 ## LSP
-```bash
 # C/C++
 sudo apt install clangd
 
